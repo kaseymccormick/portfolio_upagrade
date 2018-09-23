@@ -55,6 +55,14 @@ h4{
         flex-direction: row;
         flex-wrap:nowrap;
     }
+    .project__images{
+        max-width: 30%;
+        margin-right:20px;
+    }
+    .project__images img{
+        max-width:100%;
+        overflow: hidden;
+    }
 /* -----------------------------------
     ABOUT
 ---------------------------------------*/
