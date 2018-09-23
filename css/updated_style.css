@@ -13,6 +13,9 @@ h4{
     font-weight: normal;
     font-style: italic;
 }
+p, li{
+    font-weight: 500;
+}
 /* -----------------------------------
     Colors
 ---------------------------------------*/
@@ -45,8 +48,7 @@ h4{
     Projects
 ---------------------------------------*/
 .projects{
-    padding-top: 120px;
-    padding: 30px 0;
+    padding: 70px 0 0;
 }  
     .project{
         padding-top:20px;
@@ -57,11 +59,24 @@ h4{
     }
     .project__images{
         max-width: 30%;
-        margin-right:20px;
+        margin-right:30px;
+        padding-top: 24px;
     }
     .project__images img{
         max-width:100%;
         overflow: hidden;
+    }
+    .project__quote{
+        margin-top:20px;
+        padding:10px 0;
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+    }
+    .project__content{
+        width:60%;
+    }
+    .project__content__list li{
+        padding-top:10px;
     }
 /* -----------------------------------
     ABOUT

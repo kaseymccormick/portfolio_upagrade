@@ -70,7 +70,7 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#809ad5e0', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
 }
 
-.project__content{
+/* .project__content{
   float:left;
   width:50%;
       padding-bottom: 20px;
@@ -85,7 +85,7 @@ header {
 .project__content__icons__item p{
   padding:0px 0px 20px;
   margin:0px;
-}
+} */
 
 .project__content__icons img{
   width:50%;
