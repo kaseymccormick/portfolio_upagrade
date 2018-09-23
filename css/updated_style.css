@@ -1,0 +1,90 @@
+
+.content-width{
+    margin: 0 auto;
+    width: 70%;
+}
+/* -----------------------------------
+    Colors
+---------------------------------------*/
+.dk-blue-background{
+    background-color: #008085;
+    color: white;
+}
+/* -----------------------------------
+    Navigation
+---------------------------------------*/
+.header__navigation__text{  
+    display: inline;
+    line-height: 1.7em;
+    padding-left: 210px;
+}
+.header__navigation ul{
+    list-style-type:none;
+    float:right;
+    width:26%;
+  }
+.selected{
+    border-bottom: 4px solid #008085;
+}
+
+/* -----------------------------------
+    Projects
+---------------------------------------*/
+
+/* -----------------------------------
+    ABOUT
+---------------------------------------*/
+.about {
+    padding-top: 120px;
+    padding: 30px 0;
+
+}  
+    .about__intro{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    }
+        .intro__content {
+            font-size: 24px;
+            color: #868D8E;
+            padding-left: 41px;
+
+        }
+        .intro__image {
+            margin: 0px;
+            width:30%;
+        }
+/* about skills */
+
+
+/* -----------------------------------
+    Footer
+---------------------------------------*/
+.footer{
+    background-color: #707070;
+}
+.footer__content{
+    
+    padding:12px;
+}
+.footer__content ul{
+    padding: 0;
+    margin: 0;
+}
+.footer__content li, a{
+    list-style-type:none;
+    float:left;
+    margin-right:40px;
+    color:white;
+    
+}
+.footer__copywright{
+    padding: 3px;
+    background-color: #ececec;
+    font-size:8px;
+}
+.footer__copywright p{
+    margin: 0 auto;
+}
+  

@@ -7,6 +7,10 @@ header {
     z-index: 999;
     width: 100%;
     background-color: white;
+    border-top: 1px solid rgba(125,127,130,0.27);
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(125,127,130,0.47);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(125,127,130,0.47);
+    box-shadow: 0px 6px 5px 0px rgba(125,127,130,0.47);
 }
 .clear{
   clear:both;
@@ -42,31 +46,14 @@ header {
   padding-left:20px;
   font-size:22px;
 }
-#about {
-    padding-top: 60px;
-}
 
-.about__image {
-  width: 20%;
-  float: left;
-  padding-left: 41px;
-  margin: 0px;
-}
 
-.about__content {
-  font-size: 24px;
-  width: 70%;
-  color: #868D8E;
-  float: left;
-}
+
+
 .header{
   text-align:center;
   margin-bottom: -26px;
   color: #B9E3EA; 
-}
-
-.project, .about{
-  padding: 30px 30px 5px;
 }
 .project--right{
   float:right;
@@ -207,28 +194,9 @@ h4.intro__header{
   text-align: center;
   width: 36%;
 }
-footer{
-  color:white;
-}
-.footer__connect {
-  background-color: #B8E2E9;
-  padding:12px;
-}
 
-.footer__connect li, a{
-  list-style-type:none;
-  float:left;
-  margin-right:40px;
-  color:white;
-  text-style:none;
-}
-.footer__copywright {
-  padding: 3px;
-  background-color: #868D8E;
-  margin-top: -16px;
-  padding-left: 12px;
-  font-size:8px;
-}
+
+
 
 #barmost{
   background-color:#21862C; 
