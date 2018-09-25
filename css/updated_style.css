@@ -166,3 +166,31 @@ a:visited{
   .footer {
     height: 62px;
   }
+
+  /* -----------------------------------
+    phone
+---------------------------------------*/
+  @media(max-width:480px){
+    .about__intro {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 160px;
+    }
+    .intro__content{
+        padding-left:0;
+
+    }
+    .header__navigation ul {
+        flex-wrap: wrap;
+        width: 80%
+    }  
+    .header__navigation ul li:first-child{
+        border-bottom: 1px solid #003550;
+    }
+    .header__navigation ul li:not(:first-child){
+        margin-top:12px;
+        margin-left:42px;  
+        margin-bottom:20px;  
+    }  
+  }
