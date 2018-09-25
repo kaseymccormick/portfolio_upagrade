@@ -15,6 +15,10 @@ h4{
 }
 p, li{
     font-weight: 500;
+    line-height: 1.4em;
+}
+a:visited{
+    color:rgb(125, 82, 168);
 }
 /* -----------------------------------
     Colors
@@ -26,6 +30,12 @@ p, li{
 .teal-background{
     background-color: #008085;
     color: white;
+}
+/* -----------------------------------
+    Spacing
+---------------------------------------*/
+.margin-L-20{
+    margin-left:20px;
 }
 /* -----------------------------------
     Navigation
@@ -111,20 +121,14 @@ p, li{
     background-color: #707070;
 }
 .footer__content{
-    
     padding:12px;
+    color: white;
 }
-.footer__content ul{
-    padding: 0;
-    margin: 0;
+.footer__content a{
+    color: white;
 }
-.footer__content li, a{
-    list-style-type:none;
-    float:left;
-    margin-right:40px;
-    color:white;
-    
-}
+
+
 .footer__copywright{
     padding: 3px;
     background-color: #ececec;
