@@ -170,8 +170,8 @@ a:visited{
   /* -----------------------------------
     phone
 ---------------------------------------*/
-  @media(max-width:480px){
-    .about__intro {
+  @media(max-width:768px){
+    .about__intro,  {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -193,4 +193,22 @@ a:visited{
         margin-left:42px;  
         margin-bottom:20px;  
     }  
+    .projects {
+        padding-top: 160px;
+    }
+    .project{
+        flex-wrap: wrap;
+    }
+    .project__content {
+        width: 90%;
+    }
+    
+    .project__images {
+        max-width: 100%;
+    }
+    .project ul{
+        list-style-type: none;
+        padding-left: 0;
+    }
+
   }
