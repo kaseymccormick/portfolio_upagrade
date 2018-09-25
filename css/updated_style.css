@@ -37,6 +37,9 @@ a:visited{
 .margin-L-20{
     margin-left:20px;
 }
+.margin-T-20{
+    margin-top:20px;
+}
 /* -----------------------------------
     Navigation
 ---------------------------------------*/
@@ -66,6 +69,7 @@ a:visited{
 }
 .selected{
     border-bottom: 4px solid #008085;
+    color:#008085;
 }
 /* -----------------------------------
     Projects
@@ -134,11 +138,12 @@ a:visited{
     background-color: #707070;
 }
 .footer__content{
-    padding:12px;
+    padding:12px 12px 1px;
     color: white;
 }
 .footer__content a{
-    color: white;
+    color:  #ececec;
+
 }
 
 
