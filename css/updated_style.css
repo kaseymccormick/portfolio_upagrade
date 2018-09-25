@@ -40,20 +40,33 @@ a:visited{
 /* -----------------------------------
     Navigation
 ---------------------------------------*/
-.header__navigation__text{  
-    display: inline;
-    line-height: 1.7em;
-    padding-left: 210px;
-}
 .header__navigation ul{
-    list-style-type:none;
-    float:right;
-    width:26%;
-  }
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin: 0;
+}
+.header__navigation ul li:first-child{
+    line-height: 1.7em;
+    padding-left: 12%;
+    padding-right: 35%;
+    color:#707070;
+}
+.header__navigation ul li:not(:first-child){
+    margin-top:24px;
+    margin-right:40px;    
+}
+
+.header__navigation ul li a{
+    text-decoration: none;
+}
+.header__navigation ul li a:visited{
+    color:#707070;
+}
 .selected{
     border-bottom: 4px solid #008085;
 }
-
 /* -----------------------------------
     Projects
 ---------------------------------------*/
