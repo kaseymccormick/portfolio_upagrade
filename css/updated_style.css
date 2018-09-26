@@ -58,11 +58,13 @@ a:visited{
 }
 .header__navigation ul li:not(:first-child){
     margin-top:24px;
-    margin-right:40px;    
+    margin-right:40px;
+        
 }
 
 .header__navigation ul li a{
     text-decoration: none;
+    color:#707070;
 }
 .header__navigation ul li a:visited{
     color:#707070;
