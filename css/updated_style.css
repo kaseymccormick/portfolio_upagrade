@@ -172,7 +172,7 @@ a:visited{
   /* -----------------------------------
     phone
 ---------------------------------------*/
-@media screen and (min-width:400px) and (max-width:768px){
+@media(min-width:300px) and (max-width:768px){
     
     .about__intro  {
         display: flex;
