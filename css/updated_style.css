@@ -109,7 +109,7 @@ a:visited{
     ABOUT
 ---------------------------------------*/
 .about{
-    padding-top: 120px;
+    
     padding: 30px 0;
 }  
     .about__intro{
@@ -212,4 +212,10 @@ a:visited{
         padding-left: 0;
     }
 
+  }
+
+  @media(min-width:1218px){
+      .about{
+          padding-top:40px;
+      }
   }
